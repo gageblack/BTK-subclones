@@ -1,0 +1,4 @@
+# BTK-subclones
+This repository contains the scripts used to analyze the data for the manuscript titled "Long-read single-cell RNA sequencing enables the study of cancer subclone-specific genotype and phenotype in chronic lymphocytic leukemia."
+
+The single-cell expression data generated in this study have been submitted to the NCBI Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/geo/) under accession number GSE259253. The whole exome sequencing data used in this study are available in the NCBI database of Genotypes and Phenotypes (dbGaP; https://www.ncbi.nlm.nih.gov/gap/) under accession number phs003042.v1.p1.
