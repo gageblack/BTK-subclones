@@ -1,0 +1,37 @@
+clusters:
+    - name: C0
+      vcf: patient3.subclones.vcf.clu0.vcf
+    - name: C1
+      vcf: patient3.subclones.vcf.clu1.vcf
+    - name: C2
+      vcf: patient3.subclones.vcf.clu2.vcf
+    - name: C3
+      vcf: patient3.subclones.vcf.clu3.vcf
+    - name: C4
+      vcf: patient3.subclones.vcf.clu4.vcf
+
+subclones:
+    - name: normal
+      fraction: 0.28
+      clusters: []
+      defining_cluster: ""
+    - name: C0
+      fraction: 0.0
+      clusters: [C0,C3]
+      defining_cluster: C0
+    - name: C1
+      fraction: 0.188
+      clusters: [C1,C3]
+      defining_cluster: C1
+    - name: C2
+      fraction: 0.0007
+      clusters: [C0,C2,C3]
+      defining_cluster: C2
+    - name: C3
+      fraction: 0.52
+      clusters: [C3]
+      defining_cluster: C3
+    - name: C4
+      fraction: 0.0
+      clusters: [C3,C4]
+      defining_cluster: C4
